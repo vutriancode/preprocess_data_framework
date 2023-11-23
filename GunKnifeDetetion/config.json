@@ -1,0 +1,140 @@
+{
+    "DATASETS":{
+        "Monash-Guns-Dataset":{
+            "DATA_NAME":"Monash-Guns-Dataset",
+            "DATA_INTERNET_LINK":"https://github.com/MarcusLimJunYi/Monash-Guns-Dataset",
+            "DATA_LOCAL_LINK":"/home/anvt/Downloads/MGD",
+            "DATA":[
+                {
+                    "TYPE":"ALL",
+                    "ANNOTATION_PATH":"/home/anvt/Downloads/MGD/MGD2020/Annotations",
+                    "IMAGE_PATH":"/home/anvt/Downloads/MGD/MGD2020/JPEGImages"
+                }
+            ]
+        },
+        "OD-WeaponDetection-master":{
+            "DATA_NAME":"OD-WeaponDetection-master",
+            "DATA_INTERNET_LINK":"https://bom.so/F8YVjr",
+            "DATA_LOCAL_LINK":"/home/anvt/Downloads/OD-WeaponDetection-master",
+            "DATA":[
+                {
+                    "TYPE":"knife",
+                    "ANNOTATION_PATH":"/home/anvt/Downloads/OD-WeaponDetection-master/Knife_detection/annotations",
+                    "IMAGE_PATH":"/home/anvt/Downloads/OD-WeaponDetection-master/Knife_detection/Images"
+                },
+                {
+                    "TYPE":"pistol",
+                    "ANNOTATION_PATH":"/home/anvt/Downloads/OD-WeaponDetection-master/Pistol detection/xmls",
+                    "IMAGE_PATH":"/home/anvt/Downloads/OD-WeaponDetection-master/Pistol detection/Weapons"
+                },
+                {
+                    "TYPE":"other",
+                    "ANNOTATION_PATH":"/home/anvt/Downloads/OD-WeaponDetection-master/Weapons and similar handled objects/Sohas_weapon-Detection/annotations/xmls",
+                    "IMAGE_PATH":"/home/anvt/Downloads/OD-WeaponDetection-master/Weapons and similar handled objects/Sohas_weapon-Detection/images"
+                }
+            ]
+        },
+        "Weapons-Image-2fps":{
+            "DATA_NAME":"Weapons-Image-2fps",
+            "DATA_INTERNET_LINK":"https://github.com/MarcusLimJunYi/Monash-Guns-Dataset",
+            "DATA_LOCAL_LINK":"/home/anvt/Downloads/weapons_images_2fps",
+            "DATA":[
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"/home/anvt/Downloads/weapons_images_2fps/Images",
+                    "IMAGE_PATH":"/home/anvt/Downloads/weapons_images_2fps/Images"
+                }
+            ]
+        },
+        "weapon_detect_v33i_voc":{
+            "DATA_NAME":"weapon_detect_v33i_voc",
+            "DATA_INTERNET_LINK":"https://github.com/MarcusLimJunYi/Monash-Guns-Dataset/",
+            "DATA_LOCAL_LINK":"/home/anvt/Downloads/weapon_detect_v33i_voc",
+            "DATA":[
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"//home/anvt/Downloads/weapon_detect_v33i_voc/train",
+                    "IMAGE_PATH":"/home/anvt/Downloads/weapon_detect_v33i_voc/train"
+                }
+            ]
+        },
+
+        "sword_detection_v4i_voc":{
+            "DATA_NAME":"sword_detection_v4i_voc",
+            "DATA_INTERNET_LINK":"https://github.com/MarcusLimJunYi/Monash-Guns-Dataset",
+            "DATA_LOCAL_LINK":"/home/anvt/Downloads/sword_detection_v4i_voc",
+            "DATA":[
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"//home/anvt/Downloads/sword_detection_v4i_voc/test",
+                    "IMAGE_PATH":"/home/anvt/Downloads/sword_detection_v4i_voc/test"
+                },
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"//home/anvt/Downloads/sword_detection_v4i_voc/train",
+                    "IMAGE_PATH":"/home/anvt/Downloads/sword_detection_v4i_voc/train"
+                },
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"//home/anvt/Downloads/sword_detection_v4i_voc/valid",
+                    "IMAGE_PATH":"/home/anvt/Downloads/sword_detection_v4i_voc/valid"
+                }
+            ]
+        },
+
+        "FireGuns and Knifes Detector_v2i_voc":{
+            "DATA_NAME":"FireGuns and Knifes Detector_v2i_voc",
+            "DATA_INTERNET_LINK":"https://github.com/MarcusLimJunYi/Monash-Guns-Dataset",
+            "DATA_LOCAL_LINK":"/home/anvt/Downloads/weapons_images_2fps",
+            "DATA":[
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"//home/anvt/Downloads/FireGuns and Knifes Detector_v2i_voc/test",
+                    "IMAGE_PATH":"/home/anvt/Downloads/FireGuns and Knifes Detector_v2i_voc/test"
+                },
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"//home/anvt/Downloads/FireGuns and Knifes Detector_v2i_voc/train",
+                    "IMAGE_PATH":"/home/anvt/Downloads/FireGuns and Knifes Detector_v2i_voc/train"
+                },
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"//home/anvt/Downloads/FireGuns and Knifes Detector_v2i_voc/valid",
+                    "IMAGE_PATH":"/home/anvt/Downloads/FireGuns and Knifes Detector_v2i_voc/valid"
+                }
+            ]
+        },
+        "p1_v5i_voc":{
+            "DATA_NAME":"p1_v5i_voc",
+            "DATA_INTERNET_LINK":"https://github.com/MarcusLimJunYi/Monash-Guns-Dataset",
+            "DATA_LOCAL_LINK":"/home/anvt/Downloads/weapons_images_2fps",
+            "DATA":[
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"//home/anvt/Downloads/p1_v5i_voc/test",
+                    "IMAGE_PATH":"/home/anvt/Downloads/p1_v5i_voc/test"
+                },
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"//home/anvt/Downloads/p1_v5i_voc/train",
+                    "IMAGE_PATH":"/home/anvt/Downloads/p1_v5i_voc/train"
+                },
+                {
+                    "TYPE":"all",
+                    "ANNOTATION_PATH":"//home/anvt/Downloads/p1_v5i_voc/valid",
+                    "IMAGE_PATH":"/home/anvt/Downloads/p1_v5i_voc/valid"
+                }
+            ]
+        }
+    },
+    "DATA_MAP":{
+        "0":["handgun","pistol"],
+        "1":["knife"],
+        "2":["short_rifle","rifle"],
+        "3":["smartphone"],
+        "4":["stick"],
+        "5":["grenade","stone_in_hand"],
+        "6":["sword"]
+    },
+    "YOLO_LABELS":"/home/anvt/Desktop/new_weapons_data"
+}
